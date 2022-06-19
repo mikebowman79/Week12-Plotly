@@ -5,56 +5,26 @@ In this assignment, you will build an interactive dashboard to explore the Belly
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-Instructions
-Complete the following steps:
+End goals of the construcon of this dashboard are as follows: 
 
-Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
+1. Create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. The horizontal bar chart will display the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.
+2. create a bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
 
-Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-
-Use sample_values as the values for the bar chart.
-
-Use otu_ids as the labels for the bar chart.
-
-Use otu_labels as the hovertext for the chart.
-
-bar Chart
-
-Create a bubble chart that displays each sample.
-Use otu_ids for the x values.
-
-Use sample_values for the y values.
-
-Use sample_values for the marker size.
-
-Use otu_ids for the marker colors.
-
-Use otu_labels for the text values.
-
-Bubble Chart
-
-Display the sample metadata, i.e., an individual's demographic information.
-
-Display each key-value pair from the metadata JSON object somewhere on the page.
-
-hw
-
-Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown below:
-hw
-
-Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough README.md file
-Advanced Challenge Assignment (Optional)
-The following task is advanced and therefore optional.
-
-Adapt the Gauge Chart from https://plot.ly/javascript/gauge-charts/ to plot the weekly washing frequency of the individual.
-
-You will need to modify the example gauge code to account for values ranging from 0 through 9.
-
-Update the chart whenever a new sample is selected.
-
-Weekly Washing Frequency Gauge
-
-Hints
-Use console.log inside of your JavaScript code to see what your data looks like at each step.
-
-Refer to the Plotly.js documentation when building the plots.
+  a.The otu_ids as the x-axis values.
+  b. The sample_values as the y-axis values.
+  c.The sample_values as the marker size.
+  d.The otu_ids as the marker colors.
+  e. The otu_labels as the hover-text values.
+  
+3. Create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.  
+4. Customize your dashboard with three of the following:
+  a.Add an image to the jumbotron.
+  b.Add background color or a variety of compatible colors to the webpage.
+  c.Use a custom font with contrast for the colors.
+  d.Add more information about the project as a paragraph on the page.
+  e.Add information about what each graph visualizes, either under or next to each graph.
+  f.Make the webpage mobile-responsive.
+  g.Change the layout of the page.
+  h.Add a navigation bar that allows you to select the bar or bubble chart on the page.
+  i.When the dashboard is first opened in a browser, ID 940’s data should be displayed in the dashboard, and the three charts should be working according to their           requirements.
+  j. When a sample is selected, the dashboard should display the data in the panel and all three charts according to their requirements.
