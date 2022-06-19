@@ -1,11 +1,10 @@
 # Week12-Plotly: Belly Button Biodiversity
 
-Unit 14 Homework: Belly Button Biodiversity
-In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.
+For ths challange, the goal is to build an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-End goals of the construcon of this dashboard are as follows: 
+Completed construction points of this dashboard are as follows: 
 
 1. Create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. The horizontal bar chart will display the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.
 2. create a bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
